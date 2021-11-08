@@ -1,0 +1,21 @@
+html {
+    min-height: 100%;
+}
+
+body {
+  background-image: linear-gradient(60deg, #0089ff,#ff0089);
+}
+
+h1 {
+  color: white;
+  text-shadow: .5vw .5vw 8px #000000;
+}
+
+::selection {
+  background-image:  background-image: linear-gradient(60deg, #89ff00,#0089ff);
+}
+
+@font-face {
+  font-family: Broad;
+  src: url(BROADW.TTF);
+}
